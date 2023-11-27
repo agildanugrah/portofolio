@@ -1,0 +1,234 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  /* max-width: 1299px; */
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+section.hero{
+  background: #ededed;
+}
+
+
+nav, main{
+  max-width: 1299px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.hero h2{
+  text-align: left;
+  padding-top: 30px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+nav ul img{
+  width: 85px;
+  height: 85px;
+  /* border: 1px solid black; */
+  margin-right: auto;
+  vertical-align: sub;
+}
+
+nav li + li{
+  padding-left: 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+nav li{
+  font-size: 3rem;
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  padding-top: 150px;
+  /* max-width: 1299px;
+  margin: 0 auto;
+  padding: 0 auto; */
+}
+
+section.aboutMe{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  background: #fff;
+  /* width: 90%; */
+  padding-bottom: 100px;
+}
+
+section.aboutMeFoto{
+  /* border: 1px solid black; */
+  width: 15%;
+}
+
+.ppImg{
+  width: 200px;
+  height: 200px;
+  padding-bottom: 50px;
+}
+
+.aboutMeFoto ul li{
+  padding-top: 5px;
+}
+
+.logoSosmed{
+  width: 25px;
+  height: 25px;
+  vertical-align:sub;
+  padding: 0;
+  
+}
+
+.aboutMeFoto span+span a{
+  text-decoration: none;
+  color: #3498db;
+  font-size: 2.2rem;
+  padding-left: 10px;
+  font-family: 'Finlandica', sans-serif;
+}
+
+section.aboutMeRight{
+  width: 60%;
+  /* border: 1px solid black; */
+}
+
+.aboutMeRight{
+  padding-top: 150px;
+}
+
+.aboutMeRight p, .aboutMeRight h2{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.aboutMeRight p{
+  padding-top: 30px;
+}
+
+.aboutMe li{
+  list-style-type: none;
+}
+
+h1{
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 2.5rem;
+  color: #5a6764;
+  font-family: 'Open sans', sans-serif;
+}
+
+.myWork{
+  display: flex;
+  justify-content: space-between;
+}
+
+.myWork section{
+  background-color: #fff;
+  width: 30%;
+}
+
+figcaption{
+  font-family: 'Playfair Display', sans-serif;
+}
+
+
+
+
+.project{
+  width: 30%;
+  padding: 100px 0;
+  /* border: 1px solid black; */
+}
+
+
+section img{
+  max-width: 400px;
+  max-height: 300px;
+  padding: 40px 40px 10px 40px;
+  /* background: #fff; */
+}
+
+nav ul img{
+  width: 85px;
+  height: 85px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  margin-right: auto;
+  vertical-align: sub;
+}
+
+figcaption{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #3498db;
+
+}
+
+body{
+  background-color: #f6f6f6;
+}
+
+.aboutMe h2{
+  text-align: left;
+}
+
+section.fixed-nav {
+  /* max-width: 1299px; */
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  background-color: #ededed;
+  z-index: 1000; /* Menentukan tingkat z-index agar navbar tetap di atas elemen lain */
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
