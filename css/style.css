@@ -171,6 +171,10 @@ p{
   width: 30%;
 }
 
+.myWork section img{
+  height: 250px;
+}
+
 figcaption{
   font-family: 'Playfair Display', sans-serif;
 }
